@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5000/api';
+const API_URL = 'https://notes-saas-app-wbtt.vercel.app/api';
 
 export function setAuthToken(token) {
   if (token) {
