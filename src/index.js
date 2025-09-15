@@ -4,15 +4,6 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-const cors = require('cors');
-
-// Allow only your deployed frontend
-app.use(cors({
-  origin: 'https://frontend-4ap3.vercel.app', // your deployed frontend URL
-  credentials: true,
-}));
-
-
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
